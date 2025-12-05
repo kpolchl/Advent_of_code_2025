@@ -18,6 +18,7 @@ def main(file_path):
                 start = 0
             else:
                 start = temp[i][1]+1
+
             for j in range(start ,len(line)-(11-i)):
                 # print(maxi, j)
                 if int(line[j]) > int(maxi):
